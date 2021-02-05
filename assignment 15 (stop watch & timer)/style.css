@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #ece8e8;
+}
+nav {
+    width: 100%;
+    background: rgb(66, 66, 235);
+}
+nav ul {
+    display: flex;
+    min-height: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    padding: 5px 15px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s ease-in;
+}
+nav ul li a:hover {
+    color: red;
+}
+.active {
+    color: rgb(255, 188, 188) !important;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+}
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.watch h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(66, 66, 235);
+    margin: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 5px 10px 18px #888888;
+    
+}
+.main-heading {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5rem;
+    margin-top: 5rem;   
+    text-shadow: 5px 10px 18px #888888;
+    transition: all 0.5s ease;
+}
+.main-heading:hover {
+    transform: translateX(1%);
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+button {
+    padding: 10px;
+    background-color: rgb(66, 66, 235);
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin: 5px;
+    transition: all .5s ease;
+    font-size: 16px;
+}
+button:hover {
+    box-shadow: 5px 10px 18px #888888;
+    transform: translateY(-20%);
+    background-color: #f7f7f7;
+    color: rgb(66, 66, 235);
+    cursor: pointer;
+}
+button:active {
+    background-color: red;
+    color: white;
+}
+#trybtn {
+    display:none
+}
+.mainbtn {
+    margin-top: 2rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(29, 29, 175);
+}
+button {
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 8px 10px;
+    font-weight:400;
+    background-color: rgba(29, 29, 175);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
